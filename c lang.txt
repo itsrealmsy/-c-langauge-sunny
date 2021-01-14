@@ -1,0 +1,175 @@
+ARRAY
+
+#include<stdio.h>
+int main() 
+ {
+ int xyz[4]; 
+
+int average;
+float grade[4];
+ int float double 
+grade[1]=70.56;
+grade[2]=86.67;
+grade[3]=90.20;
+
+average=(grade[1]+grade[2]+grade[3])/3; 
+printf("fgsgsgsdgsg %f ", grade[0]);
+printf("\n the average is %d", average);
+return 0; 
+ }
+
+OUTPUT
+fgsgsgsdgsg 0.000000 
+ the average is 82>> 
+
+
+
+#2
+scanf(input is provided by the user)
+
+#include<stdio.h>
+int main()
+{
+int a;
+int b;
+printf("enter value a:");
+scanf("%d",&a);
+printf("enter value b:");
+scanf("%d",&b);
+printf("the input of a is %d",a);
+printf("\n the input of b is %d",b);
+return 0;
+}
+
+OUTPUT
+enter value a:45
+enter value b:45
+the input of a is 45
+ the input of b is 45>> 
+
+
+#3
+#include<stdio.h>
+int main()
+{
+int a;
+int b;
+int sum;
+
+printf("enter the value of a:");
+scanf("%d",&a);
+printf("\n enter the value of b:");
+scanf("%d",&b);
+sum=a+b;
+printf("the sum of a and b is %d",sum);
+return 0;
+
+}
+
+OUTPUT
+enter the value of a:89
+
+ enter the value of b:90
+the sum of a and b is 179>> 
+
+#4
+
+if else
+
+#include<stdio.h>
+int main()
+{
+int a;
+int b;
+int result;
+int option;
+
+printf("enter the value of a:");
+scanf("%d",&a);
+printf("enter the value of b:");
+scanf("%d",&b);
+printf("\n 1. add \n 2. sub \n 3. div \n 4. multi");
+scanf("%d",&option);
+
+if ( option == 1)//condition
+{   
+    result = a+b;
+    printf("Sum is %d",result);
+}
+else if ( option == 2) // plan b
+{   
+    result = a-b;
+    printf("Subs is %d",result); // plan b mission
+}
+else if(option == 3)
+ {
+    result = a/b;
+    printf(" div is %d",result);
+}
+else if (option == 4)
+{
+    result =a*b;
+    printf("multi is %d",result);  
+}
+    return 0;
+}
+
+
+OUTPUT
+enter the value of a:90
+enter the value of b:78
+
+ 1. add 
+ 2. sub 
+ 3. div 
+ 4. multi3
+ div is 1>> 
+
+
+
+
+
+#5
+
+#include<stdio.h>
+int main()
+{
+int a;
+int value;
+int even;
+int odd;
+    
+printf(" enter the value of a:");
+scanf("%d",&a);
+if (a%2==0)// check even or not
+{ 
+printf("a is even \n");
+a = a-1;
+} 
+else if(a%2!=0) 
+{
+printf("a is odd \n");
+a=a+1;
+}
+
+printf("The new a value is %d",a);
+}
+
+
+// /* equal to "=="
+// not equal to "!="
+// remainder to "%" */  
+
+OUTPUT
+enter the value of a:5 
+a is odd 
+The new a value is 6>> 
+
+
+
+
+
+
+
+
+
