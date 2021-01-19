@@ -165,6 +165,37 @@ enter the value of a:5
 a is odd 
 The new a value is 6>> 
 
+#if else
+#include <stdio.h>
+int main()
+{
+int ok;
+printf("enter the score of the student:");
+scanf("%d",&ok);
+if(ok>90 || ok<100)
+{
+printf("the score of student is i");
+}
+else if(ok>70 || ok<80)
+{
+printf("the score of student is l");
+}
+else if(ok>50 || ok<50)
+{
+printf("the score of student is u");
+}
+else
+{
+printf("the score of student is !");
+}
+return 0;
+}
+
+OUTPUT
+
+enter the score of the student:89
+the score of student is i>> 
+
 
 
 
